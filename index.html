@@ -1,25 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+<link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
+
+<link href='http://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css'>
+
   <meta charset="UTF-8">
-  <title>Form</title>
+  <title>Form</title> 
   <link rel="stylesheet" type="text/css" href="todo.css">
 
 </head>
-  <body>
+  <body >
+    <header>
+    THINGS TO ACCOMPLISH.
+    </header>
+  <div container>
+    <div row text-center>
+      <div class = "col-md-5">
     <form id="toDoForm">
-      <p class = "theTitle">
-        <label for="toDo">Stuff To Do</label>
+      <p>
+        <label for="toDo"></label>
         </p>
-        <p>
-        <!-- the label for="title" is linked to id="title" in the input type -->
+        <p class = "textField">
         <input type="text" name="thing" id="toDo" value = "" placeholder ="type here..." autofocus required>
         <input type="submit" value="Save">
       </p>
     </form>
-
     <ul id="toDoList"></ul>
-    
+      </div>
+      <div class = "col-md-7">
+      </div>
+    </div>
+  </div>
   </body>
  <script src="todo.js"></script>
 </html>

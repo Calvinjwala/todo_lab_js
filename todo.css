@@ -1,15 +1,65 @@
+body {
+  background: url(https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-frc3/v/t1.0-9/1391484_10151630294306502_1690051517_n.jpg?oh=c7b52b24703b55d9b61a2c2f9ac31d91&oe=54CEBE74&__gda__=1421763614_245c9d2a82e0cccf1d6e13baa3c05eec) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-width: 100%;
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  margin: 7px 7px 0px 7px;
+}
+
+header {
+  height: 130px;
+  color: white;
+  background-color: rgba(0,0,0,0.8);
+  font-size: 90px;
+  margin: 5px 9px 0px 5px;
+  text-align: center;
+  vertical-align: center;
+  font-family: 'Wire One', sans-serif;
+}
+
+button { 
+  margin: 1px;
+  font-weight: normal;
+  font-size: 12px;
+  color: black;
+  float: right;
+}
+
+.container {
+  text-align: center;
+}
+
+.lista {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 17px;
+  font-weight: bold;
+  color: black;
+  padding-left: 8px;
+  margin: 2px;
+}
+
 .done {
   text-decoration: line-through;
+  font-weight: normal;
 }
 
 
-.hello:after {
-  height: 20px;
-  width: 20px;
+.hello{
   color:black;
-  content: "Delete";
+  clear: right;
+
 }
 
-body {
-  background-color: gray;
-}
+
+
+/*.listItem {
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}*/

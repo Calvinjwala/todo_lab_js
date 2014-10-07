@@ -9,6 +9,7 @@ var itemAdd = function(event){
   event.preventDefault();
   var title = this.thing.value;
   var listItem= document.createElement("li");
+  listItem.classList.add("lista");
   var text= document.createTextNode(title);
   listItem.appendChild(text);
   list.appendChild(listItem);
@@ -22,13 +23,14 @@ var itemAdd = function(event){
   list.appendChild(listItem);
   // this.listItem.setAttribute()
 
-
+  var deleteButtonTxt = document.createTextNode("Delete");
   var deleteButton = document.createElement("button");
+  deleteButton.appendChild(deleteButtonTxt);
   deleteButton.addEventListener("click", deletion);
-  deleteButton.classList.add("hello");
+  // deleteButton.classList.add("hello");
   listItem.appendChild(deleteButton);
   list.appendChild(listItem);
-};
+}; 
 
 
 var finished = function(event){

@@ -1,0 +1,15 @@
+.done {
+  text-decoration: line-through;
+}
+
+
+.hello:after {
+  height: 20px;
+  width: 20px;
+  color:black;
+  content: "Delete";
+}
+
+body {
+  background-color: gray;
+}

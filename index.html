@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form</title>
+  <link rel="stylesheet" type="text/css" href="todo.css">
+
+</head>
+  <body>
+    <form id="toDoForm">
+      <p class = "theTitle">
+        <label for="toDo">Stuff To Do</label>
+        </p>
+        <p>
+        <!-- the label for="title" is linked to id="title" in the input type -->
+        <input type="text" name="thing" id="toDo" value = "" placeholder ="type here..." autofocus required>
+        <input type="submit" value="Save">
+      </p>
+    </form>
+
+    <ul id="toDoList"></ul>
+    
+  </body>
+ <script src="todo.js"></script>
+</html>
+
